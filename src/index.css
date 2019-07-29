@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+span {
+  font-size: 0.75rem;
+}
+
+a {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+
+button {
+  border-radius: 1.5rem;
+  border: 1px solid #27b700;
+  background-color: #27b700;
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.75rem 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-color: #FFFFFF;
+}
+
+form {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
